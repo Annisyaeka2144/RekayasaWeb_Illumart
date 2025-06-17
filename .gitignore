@@ -1,0 +1,4 @@
+.vercel
+node_modules/
+apps/frontend/build/
+.env

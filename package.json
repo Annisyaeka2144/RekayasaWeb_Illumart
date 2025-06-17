@@ -1,0 +1,10 @@
+{
+  "name": "illumart_restructured",
+  "version": "1.0.0",
+  "packageManager": "npm",
+  "workspaces": ["apps/frontend", "apps/backend"],
+  "scripts": {
+    "build:frontend": "cd apps/frontend && npm run build",
+    "deploy": "npm run build:frontend && vercel --prod"
+  }
+}

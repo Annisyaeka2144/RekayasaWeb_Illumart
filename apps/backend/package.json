@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "mysql2": "^3.14.1",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.0",
+    "sequelize": "^6.37.7",
+    "serverless-http": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
