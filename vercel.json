@@ -9,7 +9,7 @@
       "src": "apps/frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build"
+        "distDir": "apps/frontend/build"
       }
     }
   ],
@@ -17,9 +17,6 @@
     {
       "src": "/api/(.*)",
       "dest": "apps/backend/index.js"
-    },
-    {
-      "handle": "filesystem"
     },
     {
       "src": "/(.*)",
