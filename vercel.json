@@ -15,11 +15,14 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
+      "src": "/api/(.*)",                     
       "dest": "apps/backend/index.js"
     },
     {
-      "src": "/(.*)",
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",                         
       "dest": "apps/frontend/build/index.html"
     }
   ]
